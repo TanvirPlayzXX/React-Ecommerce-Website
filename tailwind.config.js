@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily :{
+        IntegralCF: ['Integral'],
+        Satoshi: ['Satoshi', 'sans-serif'],
+      },
+      backgroundImage: {
+
+        'banner-texture': "url('/assets/image/banner.png')",
+      }
+
+    },
   },
   plugins: [],
 }
