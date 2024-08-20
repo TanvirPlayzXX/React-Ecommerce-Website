@@ -13,8 +13,8 @@ const TopBrands = () => {
     return (
         <div className="flex justify-around bg-black py-10">
            {
-            brandList.map((value)=>{
-                return <img src={value} alt="Brand" />
+            brandList.map((value,i)=>{
+                return <img key={i} src={value} alt="Brand" />
             })
            } 
         </div>

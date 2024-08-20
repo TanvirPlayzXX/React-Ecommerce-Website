@@ -28,7 +28,7 @@ const NavItems = () => {
   </div>
   {/* Search Bar */}
 
-        <div className=" flex justify-around text-xl font-bold">
+        <div className=" flex justify-around text-3xl font-bold">
         <NavLink className="mx-2 " to="/shop"><FiShoppingCart /></NavLink>
         <NavLink className="mx-2 " to="/profile"><CgProfile /></NavLink>
 
@@ -38,10 +38,10 @@ const NavItems = () => {
   <div className="flex items-center space-x-8">
 
     <nav className="flex items-center space-x-6 text-sm text-black">
-        <NavLink className="hover:underline" to="/shop">Shop</NavLink>
-        <NavLink className="hover:underline" to="/sale">OnSale</NavLink>
-        <NavLink className="hover:underline" to="/new">New Arrivals</NavLink>
-        <NavLink className="hover:underline" to="/brands">Brands</NavLink>
+        <NavLink className={({isActive})=> isActive ? "text-purple-500 text-lg " : "as"} to="/">Home</NavLink>
+        <NavLink className={({isActive})=> isActive ? "text-purple-500 text-lg " : "as"} to="/shop">Shop</NavLink>
+        <NavLink className={({isActive})=> isActive ? "text-purple-500 text-lg " : "as"} to="/new">New Arrivals</NavLink>
+        <NavLink className={({isActive})=> isActive ? "text-purple-500 text-lg " : "as"} to="/brands">Brands</NavLink>
     </nav>
   </div>
 </div>
