@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @layer components {
-
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden
+}
 @font-face {
   font-family: "Integral";
   src: url('Fonts/Fontspring-DEMO-integralcf-regular.otf');

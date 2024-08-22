@@ -8,7 +8,7 @@ import {
 import './index.css'
 import Home from './Home/Home';
 import Shop from './Shop/Shop';
-import ProductView from './components/ProductView.jsx';
+
 
 
 const router = createBrowserRouter([
@@ -18,9 +18,8 @@ const router = createBrowserRouter([
     children: [
  {path: "/",element: <Home />,},
 
- {path: "/shop",element: <Shop />,},
-
- {path: "/shop/products/:producti",element: <ProductView />,}
+ {path: "/shop",element: <Shop />,}
+ 
   ]
   },
 ]);
