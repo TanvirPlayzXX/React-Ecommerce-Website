@@ -2,6 +2,11 @@
 @tailwind components;
 @layer components {
 
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+
 @font-face {
   font-family: "Integral";
   src: url('Fonts/Fontspring-DEMO-integralcf-regular.otf');
