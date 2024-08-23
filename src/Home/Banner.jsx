@@ -5,7 +5,7 @@ import Counter from './../components/Counter';
 const Banner = () => {
     return (
         <div className="  bg-[#F2F0F1]">
-            <div className="pt-20 pb-0 m-auto  bg-banner-texture  bg-no-repeat bg-top">
+            <div className="pt-20 max-w-[1150px]  pb-0 m-auto  bg-banner-texture  bg-no-repeat bg-top">
            <h2 className="text-6xl font-IntegralCF font-bold w-[40rem]">FIND CLOTHES THAT MATCHES YOUR STYLE</h2> 
             <p className="my-5 font-Satoshi w-2/5">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
             <Button text={"Shop Now"} />

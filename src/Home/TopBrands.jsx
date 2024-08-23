@@ -11,12 +11,14 @@ const TopBrands = () => {
 
 
     return (
-        <div className="flex justify-around bg-black py-10">
+        <div className=" bg-black py-10">
+            <div className="max-w-[1440px] m-auto flex justify-around">
            {
             brandList.map((value,i)=>{
-                return <img key={i} src={value} alt="Brand" />
+                return <img key={i} className="w-fit" src={value} alt="Brand" />
             })
            } 
+        </div>
         </div>
     );
 };
